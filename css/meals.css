@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #040f0f;
+}
+
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 50px 0 0;
+    clear: both;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 5px;
+    clear: both;
+    margin-top: 80px;
+    background-color: #289944;
+    color: #fff;
+}
+
+.first-list {
+    margin-top: 0;
+}
+
+.meals {
+    background: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70)), url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.meals-content {
+    min-width: 900px;
+    padding: 10px 50px;
+}
+
+.logo {
+    width: 5em;
+    float: left;
+}
+
+.nav {
+    float: right;
+    list-style: none;
+    position: relative;
+    top: 15px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: larger;
+}
+
+.nav a {
+    color: #040f0f;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.nav a:hover {
+    color: #289944;
+}
+
+.footer {
+    font-size: larger;
+    background-color: #289944;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.leftside, .rightside {
+    width: 500px;
+    padding: 40px;
+}
+
+.menu {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.leftside {
+    float: left;
+}
+
+.rightside {
+    float: right;
+}
+
+.splitter {
+    clear: both;
+}
+
+.items {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    clear: both;
+    margin: 25px 0;
+}
+
+.item {
+    float: left;
+    line-height: 2;
+    color: #575757;
+}
+
+.price {
+    float: right;
+    color: #575757;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Delivery</title>
+    <link rel="stylesheet" href="../css/delivery.css" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="../index.html"
+        ><img class="logo" src="../img/AR_Logo.png" alt="Amr Restaurant"
+      /></a>
+      <ul class="nav">
+        <li><a href="meals.html">Meals</a></li>
+        <li><a href="delivery.html">Delivery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </div>
+    <div class="delivery-container">
+      <h1>Delivery</h1>
+      <form action="delivery.html" method="get">
+        <label for="name"
+          >Enter your name
+          <input type="text" name="name" id="name" required />
+        </label>
+        <label for="address"
+          >Enter your address
+          <input type="text" name="address" id="address" required />
+        </label>
+        <label for="address"
+          >choose payment method
+          <select name="payment-method" id="payment-method">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="paypal">Paypal</option>
+            <option value="google-pay">Google Pay</option>
+            <option value="apple-pay">Apple Pay</option>
+            <option value="vodafone-cash">Vodafone Cash</option>
+          </select>
+        </label>
+        <legend>
+          <p>Choose your order</p>
+          <div class="leftside">
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="grilled-checkin"
+                id="grilled-checkin"
+              />
+              <label for="grilled-checkin">grilled chicken</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="shish-tawook" id="shish-tawook" />
+              <label for="shish-tawook">shish tawook</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="grilled-pigeons"
+                id="grilled-pigeons"
+              />
+              <label for="grilled-pigeons">grilled pigeons</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="grilled-quills"
+                id="grilled-quills"
+              />
+              <label for="grilled-quills">grilled quills</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="mix-grilled" id="mix-grilled" />
+              <label for="mix-grilled"
+                >mix grilled ( pigeons and quills )</label
+              >
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="veal-chops" id="veal-chops" />
+              <label for="veal-chops">veal chops</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="grilled-kofta" id="grilled-kofta" />
+              <label for="grilled-kofta">grilled kofta</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="mix-grill-pigeon"
+                id="mix-grill-pigeon"
+              />
+              <label for="mix-grill-pigeon">mix grill + 1 pigeon</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="filet-with-mushroom-sauce"
+                id="filet-with-mushroom-sauce"
+              />
+              <label for="filet-with-mushroom-sauce"
+                >filet with mushroom sauce</label
+              >
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="filet-with-black-pepper-sauce"
+                id="filet-with-black-pepper-sauce"
+              />
+              <label for="filet-with-black-pepper-sauce"
+                >filet with black pepper sauce</label
+              >
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="filet-cafe-de-paris"
+                id="filet-cafe-de-paris"
+              />
+              <label for="filet-cafe-de-paris">filet cafe de paris</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="chicken-scallop"
+                id="chicken-scallop"
+              />
+              <label for="chicken-scallop">chicken scallop</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="pasta-with-vegetables"
+                id="pasta-with-vegetables"
+              />
+              <label for="pasta-with-vegetables">pasta with vegetables</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="pasta-with-chicken"
+                id="pasta-with-chicken"
+              />
+              <label for="pasta-with-chicken">pasta with chicken</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="pasta-with-meat"
+                id="pasta-with-meat"
+              />
+              <label for="pasta-with-meat">pasta with meat</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="pasta-bolongnese"
+                id="pasta-bolongnese"
+              />
+              <label for="pasta-bolongnese">pasta bolongnese</label>
+            </div>
+          </div>
+          <div class="rightside">
+            <div class="checkbox-container">
+              <input type="checkbox" name="hawawshi" id="hawawshi" />
+              <label for="hawawshi">hawawshi</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="egyptian-kofta-sandwich"
+                id="egyptian-kofta-sandwich"
+              />
+              <label for="egyptian-kofta-sandwich"
+                >egyptian kofta sandwich</label
+              >
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="alexandrian-liver-sandwich"
+                id="alexandrian-liver-sandwich"
+              />
+              <label for="alexandrian-liver-sandwich"
+                >alexandrian liver sandwich</label
+              >
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="shish-tawook-sandwich"
+                id="shish-tawook-sandwich"
+              />
+              <label for="shish-tawook-sandwich">shish tawook sandwich</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="meat-shawerma-sandwich"
+                id="meat-shawerma-sandwich"
+              />
+              <label for="meat-shawerma-sandwich">meat shawerma sandwich</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="chicken-shawerma-sandwich"
+                id="chicken-shawerma-sandwich"
+              />
+              <label for="chicken-shawerma-sandwich"
+                >chicken shawerma sandwich</label
+              >
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="greek-salad" id="greek-salad" />
+              <label for="greek-salad">greek salad</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="ceasar-salad" id="ceasar-salad" />
+              <label for="ceasar-salad">ceasar salad</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="palestinian-salad"
+                id="palestinian-salad"
+              />
+              <label for="palestinian-salad">palestinian salad</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="arabic-salad" id="arabic-salad" />
+              <label for="arabic-salad">arabic salad</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="armenian-salad"
+                id="armenian-salad"
+              />
+              <label for="armenian-salad">armenian salad</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="tuna-salad" id="tuna-salad" />
+              <label for="tuna-salad">tuna salad</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="vegetables-pizza"
+                id="vegetables-pizza"
+              />
+              <label for="vegetables-pizza">vegetables pizza</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="chicken-pizza" id="chicken-pizza" />
+              <label for="chicken-pizza">chicken pizza</label>
+            </div>
+            <div class="checkbox-container">
+              <input type="checkbox" name="seafood-pizza" id="seafood-pizza" />
+              <label for="seafood-pizza">seafood pizza</label>
+            </div>
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                name="pepperoni-pizza"
+                id="pepperoni-pizza"
+              />
+              <label for="pepperoni-pizza">pepperoni pizza</label>
+            </div>
+          </div>
+        </legend>
+        <div class="splitter"></div>
+        <input type="submit" value="Order Now" />
+      </form>
+    </div>
+    <div class="footer">&copy; 2022 Amr Restaurant, All Rights Reserved</div>
+  </body>
+</html>

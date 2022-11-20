@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="../index.html"
+        ><img class="logo" src="../img/AR_Logo.png" alt="Amr Restaurant"
+      /></a>
+      <ul class="nav">
+        <li><a href="meals.html">Meals</a></li>
+        <li><a href="delivery.html">Delivery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </div>
+    <div class="login-container">
+      <h1>Login</h1>
+      <div class="btn-container">
+        <a href="http://www.facebook.com"
+          ><button id="facebook">
+            <img src="../svg/facebook.svg" alt="facebook-logo" /><span
+              >Login to Facebook</span
+            >
+          </button></a
+        >
+        <a href="http://www.twitter.com"
+          ><button id="twitter">
+            <img src="../svg/twitter.svg" alt="twitter-logo" /><span
+              >Login to Twitter</span
+            >
+          </button></a
+        >
+      </div>
+
+      <form action="login.html" method="post">
+        <label for="user"
+          >Username or email
+          <input type="text" name="user" id="user" required />
+        </label>
+        <label for="pass"
+          >Password
+          <input type="password" name="pass" id="pass" required />
+        </label>
+        <div class="rememberMe-container">
+          <input type="checkbox" name="rememberMe" id="rememberMe" />
+          <label for="rememberMe" id="rememberMeLabel"> Remember me </label>
+        </div>
+        <a href="login.html" id="forgotPassword">Forgot your Password?</a>
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+    <div class="footer">&copy; 2022 Amr Restaurant, All Rights Reserved</div>
+  </body>
+</html>

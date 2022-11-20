@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70)), url(../img/bg.jpg);
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #040f0f;
+  text-transform: capitalize;
+  font-size: 3em;
+  text-align: center;
+  padding: 20px 0 30px;
+}
+
+p {
+  color: #808080;
+  font-size: larger;
+  line-height: 1.5;
+}
+
+.container {
+  min-width: 900px;
+  padding: 10px 50px;
+}
+
+.logo {
+  width: 5em;
+  float: left;
+}
+
+.nav {
+  float: right;
+  list-style: none;
+  position: relative;
+  top: 15px;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: larger;
+}
+
+.nav a {
+  color: #040f0f;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.nav a:hover {
+  color: #289944;
+}
+
+.register-container {
+  clear: both;
+  margin: 100px auto;
+  width: 500px;
+  vertical-align: bottom;
+}
+
+.footer {
+  font-size: larger;
+  background-color: #289944;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.side-by-side {
+  margin: 50px auto;
+}
+
+td {
+  width: 500px;
+  padding: 40px;
+}
+
+a {
+  color: #289944;
+  text-decoration: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  outline: 2px solid #aaa;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+input:focus {
+  outline: 4px solid #289944;
+}
+
+input[type="submit"] {
+  clear: both;
+  border: none;
+  background-color: #289944;
+  color: #fff;
+  margin: 50px 0;
+  font-size: 1.2em;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
